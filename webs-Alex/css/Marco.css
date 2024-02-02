@@ -1,0 +1,22 @@
+header{
+    background-color: gray;
+}
+nav{
+    display: flex;
+    top: 0;
+    z-index: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+nav ul{
+    display: flex;
+    gap: 1.5rem;
+}
+ul{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
